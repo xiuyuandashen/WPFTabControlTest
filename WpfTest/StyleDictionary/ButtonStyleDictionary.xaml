@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="solidColor2" Color="Blue"></SolidColorBrush>
+    <Style x:Key="SolidButton" TargetType="Button">
+        <Setter Property="BorderBrush" Value="red"></Setter>
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius" Value="20"/>
+            </Style>
+        </Style.Resources>
+    </Style>
+
+</ResourceDictionary>
